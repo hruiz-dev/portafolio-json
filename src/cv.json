@@ -1,0 +1,198 @@
+{
+    "basics": {
+        "name": "Hegoi Ruiz de Eguino",
+        "label": "Estudiante de programacion",
+        "image": "./argazkia.png",
+        "email": "hruizdeegino@gmail.com",
+        "phone": "+34688815644",
+        "url": " ",
+        "summary": "Actualmente, estoy estudiando un grado superior de Aplicaciones multiplataforma y anteriormente he hecho un grado medio de sistemas informático, en mi tiempo libre me gusta andar por la naturaleza y jugar videojuegos y en algunas ocasiones me gusta hacer proyectos o retos de programación con problemas reales o acertijos.",
+        "location": "Ordizia, Guipuzkoa 20240",
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "hruiz-dev",
+                "url": "https://github.com/hruiz-dev"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Aralar bhi",
+            "position": "IT Assistant",
+            "url": "https://www.aralar-bhi.net/",
+            "startDate": "2023-03-08",
+            "endDate": "2023-06-3",
+            "summary": "Praticas de final de año donde en este he estado ayudando al personal escolar y rediseñando la pagina web de la escuela",
+            "highlights": [
+                "Practicas de grado medio"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tolsaldea LHII",
+            "url": "https://tolosaldea.hezkuntza.net/en/inicio",
+            "area": "Sistemas y Redes Microinformáticas",
+            "studyType": "Grado Medio",
+            "startDate": "2021-09-07",
+            "endDate": "2023-06-06",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        },
+        {
+            "institution": "Tolsaldea LHII",
+            "url": "https://tolosaldea.hezkuntza.net/en/inicio",
+            "area": "Desarrollo de Aplicaciones Multiplataforma",
+            "studyType": "Grado Superior",
+            "startDate": "2023-09-07",
+            "endDate": "No terminado",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "level": "Medio",
+            "keywords": [
+                "Desarrolo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "CSS",
+            "level": "Medio",
+            "keywords": [
+                "Desarrolo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "level": "Medio",
+            "keywords": [
+                "Desarrolo Web",
+                "Frontend",
+                "Backend",
+                "Fullstack"
+            ]
+        },
+        {
+            "name": "JAVA",
+            "level": "Medio-Alto",
+            "keywords": [
+                "Desarrolo de Aplicaciones",
+                "Backend"
+            ]
+        },
+        {
+            "name": "PHP",
+            "level": "Medio",
+            "keywords": [
+                "Desarrolo Web",
+                "Backend"
+            ]
+        },
+        {
+            "name": "MYSQL",
+            "level": "Medio-Alto",
+            "keywords": [
+                "Bases de Datos Relacionales",
+                "Triggers",
+                "Proceduras y Funciones"
+            ]
+        },
+        {
+            "name": "DOCKER",
+            "level": "Medio",
+            "keywords": [
+                "Contenedores",
+                "Entornos de Desarrollo"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "B2"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Hablante nativo"
+        },
+        {
+            "language": "Euskera",
+            "fluency": "Hablante nativo"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        }
+    ]
+}
