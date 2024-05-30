@@ -21,8 +21,8 @@
             "name": "Aralar bhi",
             "position": "IT Assistant",
             "url": "https://www.aralar-bhi.net/",
-            "startDate": "2023-03-08",
-            "endDate": "2023-06-3",
+            "startDate": "2023-08-03",
+            "endDate": "2023-03-6",
             "summary": "Praticas de final de año donde en este he estado ayudando al personal escolar y rediseñando la pagina web de la escuela",
             "highlights": [
                 "Practicas de grado medio"
@@ -185,14 +185,16 @@
     ],
     "projects": [
         {
-            "name": "Project",
-            "startDate": "2019-01-01",
-            "endDate": "2021-01-01",
-            "description": "Description...",
+            "name": "ASCII-Dungeon",
+            "isActive": false,
+            "startDate": "2024-04-23",
+            "endDate": "2024-05-03",
+            "description": "Un juego de explorar una mazmorra con monstruos y objetos estilo ASCII dungeon",
             "highlights": [
-                "Won award at AIHacks 2016"
+                "Solo utilizando java sin un engine de videojuegos"
             ],
-            "url": "https://project.com/"
+            "url": "https://github.com/hruiz-dev/ASCII-Dungeon",
+            "github": "https://github.com/hruiz-dev/ASCII-Dungeon"
         }
     ]
 }
