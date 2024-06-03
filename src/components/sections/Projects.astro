@@ -1,10 +1,11 @@
 ---
 import Section from "../Section.astro";
 
-import { projects } from "@cv";
+const { cv } = Astro.props;
+const { projects } = cv;
 ---
 
-<Section title="Projectos">
+<Section title="Projects">
     <ul>
         {
             projects.map(

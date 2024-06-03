@@ -1,10 +1,11 @@
 ---
 import Section from "../Section.astro";
 
-import { work } from "@cv";
+const { cv } = Astro.props;
+const { work } = cv;
 ---
 
-<Section title="Experiencia">
+<Section title="Experience">
     <ul>
         {
             work.map(

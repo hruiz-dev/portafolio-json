@@ -1,5 +1,14 @@
 ---
-import { basics } from "@cv";
+import type { Basics } from "@/types/Basics";
+
+interface Cv {
+  basics: Basics;
+}
+
+const { cv }: { cv: Cv } = Astro.props;
+const { basics } = cv;
+
+
 import Section from "@/components/Section.astro";
 import Mail from "../icons/Mail.astro";
 import Phone from "../icons/Phone.astro";
@@ -59,7 +68,7 @@ const printInfo = [email, phone].filter(Boolean).join(" • ");
                 {
                   profiles.map(({ network, url, username }) => {
                     const Icon = SOCIAL_ICONS[network]
-        
+                  
                     return (
                       <a
                         href={url}
