@@ -1,20 +1,10 @@
 ---
+import type { Cv } from "@/types/Cv";
 import Section from "../Section.astro";
 
-type Education = {
-  institution: string;
-  url: string;
-  area: string;
-  studyType: string;
-  startDate: Date;
-  endDate: Date;
-};
+
 interface Props {
   cv: Cv;
-}
-
-interface Cv {
-  education: Education[];
 }
 
 const { cv } = Astro.props;

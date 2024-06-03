@@ -1,23 +1,11 @@
 ---
+import type { Cv } from "@/types/Cv";
 import Section from "../Section.astro";
 
-interface Project {
-  url: string;
-  description: string;
-  endDate: string;
-  highlights: string[];
-  name: string;
-  startDate: string;
-  github: string;
-  isActive: boolean;
-}
 interface Props {
   cv: Cv;
 }
 
-interface Cv {
-  projects: Project[];
-}
 
 const { cv } = Astro.props;
 const { projects } = cv;

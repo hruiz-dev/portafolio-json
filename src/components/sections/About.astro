@@ -1,15 +1,12 @@
 ---
+import type { Cv } from "@/types/Cv";
 import Section from "../Section.astro";
-import type { Basics } from "@/types/Basics";
 
-interface Cv {
-  basics: Basics;
-}
 interface Props {
   cv: Cv;
 }
 
-const { cv }: { cv: Cv } = Astro.props;
+const { cv } = Astro.props;
 const { basics } = cv;
 
 const { summary } = basics;
