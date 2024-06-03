@@ -1,5 +1,18 @@
 ---
 import Section from "../Section.astro"
+
+interface Skill {
+  name: string;
+  keywords: string[];
+  level: number;
+}
+interface Props {
+  cv: Cv;
+}
+
+interface Cv {
+  skills: Skill[];
+}
 const { cv } = Astro.props;
 const { skills } = cv;
 ---

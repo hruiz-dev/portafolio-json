@@ -1,6 +1,22 @@
 ---
 import Section from "../Section.astro";
 
+type Work = {
+  name: string;
+  position: string;
+  startDate: string;
+  endDate: string;
+  summary: string;
+  highlights: string[];
+};
+interface Props {
+  cv: Cv;
+}
+
+interface Cv {
+  work: Work[];
+}
+
 const { cv } = Astro.props;
 const { work } = cv;
 ---

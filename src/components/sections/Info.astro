@@ -5,6 +5,10 @@ interface Cv {
   basics: Basics;
 }
 
+interface Props {
+  cv: Cv;
+}
+
 const { cv }: { cv: Cv } = Astro.props;
 const { basics } = cv;
 
